@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="jwtSample">
+<head>
+    <title>DevoxxMA JWT Web Sample</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- generate:style app -->
+    <!-- /generate -->
+
+    <!-- generate:script vendor -->
+    <!-- /generate -->
+
+    <!-- generate:script app -->
+    <!-- /generate -->
+
+    <!-- generate:script i18n -->
+    <!-- /generate -->
+
+</head>
+<body>
+<div class="container">
+    <!-- header ng-include="'views/header.tpl.html'"></header-->
+    <div ui-view="contentHeader" class="header">
+    </div>
+
+    <div ui-view="contentBody">
+    </div>
+    <!--ng-include src="'views/login.tpl.html'"></ng-include-->
+    <!-- footer ng-include="'views/footer.tpl.html'"></footer -->
+</div>
+</body>
+</html>

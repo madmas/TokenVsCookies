@@ -1,0 +1,39 @@
+= JWT Sample server
+
+Example application or JWT handling with ratpack.
+
+It provides the endpoints
+
+
+.REST API Endpoints
+|===
+|URL, Method |Description
+
+|/api GET
+|REST method, returns HTTP 401 - Unauthorized if no valid token is provided, returns HTTP 200 & a result if it is.
+
+|/session/create POST
+|Login a user by passing a JSON like
+``
+{
+    "username":"markus",
+    "password":"????"
+}
+``
+ to retrieve a JWT to use with the /api method.
+|===
+
+
+Based in the "ratpack project template" included in link:https://github.com/pledbrook/lazybones[lazybones]
+
+For demo purposes, just the link:https://github.com/jwtk/jjwt[Java JWT] library has been used, in a realworld application
+based on ratpack, you probably want to rely on link:http://ratpack.io/manual/current/pac4j.html#pac4j[PAC4J] to handle authentication (including JWT).
+
+You can start the demo server app with
+
+[source]
+----
+./gradlew run
+----
+
+The server is then available via http://localhost:5050` 

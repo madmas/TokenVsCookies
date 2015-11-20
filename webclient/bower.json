@@ -1,0 +1,19 @@
+{
+  "name": "app-ui",
+  "version": "1.0.0",
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-bootstrap": "0.14.3",
+    "bootstrap-sass-official": "~3.3.0",
+    "font-awesome": "4.2.0",
+    "angular-jwt": "~0.0.9",
+    "angular-ui-router": "~0.2.15",
+    "angular-resource": "~1.4.7"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.4.7",
+    "angular-i18n": "~1.4.7",
+    "angular-jwt": "~0.0.9",
+    "angular-resource": "~1.4.7"
+  }
+}
