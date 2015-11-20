@@ -4,6 +4,7 @@ This is the demo project used during the talk link:http://cfp.devoxx.ma/2015/tal
 
 Find the slides at link:https://de.slideshare.net/madmas/token-vs-cookies-devoxxma-2015[slideshare] or link:TokenVsCookies-DevoxxMa2015_MarkusSchlichting.pdf[in this repository].
 
-If you attended the talk and took pictures, please send them to me link:mailto:markus.schlichting@canoo.com[me] :)
+If you attended the talk and took pictures, please send them to link:mailto:markus.schlichting@canoo.com[me]
+Also, any feedback is very much appreciated. :-)
 
 Find some details how to run the server and the client app in the readme files in the respective folders.
