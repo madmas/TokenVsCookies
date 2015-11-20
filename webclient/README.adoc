@@ -1,0 +1,17 @@
+= JWT handling demo project: AngularJS webclient
+
+Webclient of the demo project to demonstrate JWT handling with AngularJS.
+
+This sample application uses npm bower and grunt. Of course you need to have them installed ;-) 
+
+After cloning the repo, you can start with
+
+[source]
+----
+~# npm install
+~# bower install
+~# grunt run
+----
+
+and navigate to http://localhost:8000 to experiment with it.
+
