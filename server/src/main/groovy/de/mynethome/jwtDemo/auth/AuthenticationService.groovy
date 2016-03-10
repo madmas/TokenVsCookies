@@ -8,7 +8,7 @@ import de.mynethome.jwtDemo.User
 class AuthenticationService {
 
     private final String VALID_USER = "markus"
-    private final String VALID_PASSWORD = "devoxx"
+    private final String VALID_PASSWORD = "javaland"
 
     User authenticate(String userName, String password) {
 

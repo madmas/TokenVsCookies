@@ -19,7 +19,6 @@ class JwtTokenService {
                             .setClaims([userId: user.userId, cn: user.userName, email: user.email])
                             .signWith(SignatureAlgorithm.HS512, SIGNING_KEY)
                             .compact()
-        println 'created token: ' + result
         return result
     }
 

@@ -24,19 +24,19 @@ class LoginHandler implements Handler {
 
     @Override
     void handle(Context ctx) throws Exception {
-        ctx.parse(Jackson.fromJson(Map)).then { data ->
-            try {
+        try {
+            ctx.parse(Jackson.fromJson(Map)).then { data ->
                 User user = authenticate(data)
 
                 final String token = createToken(user)
 
                 ctx.response.headers.set(AUTHORIZATION_TOKEN_HEADER, 'Bearer ' + token)
                 ctx.render('{ "token": "' + token + '" }')
-            } catch (Exception ex) {
-                log.warn("Login failed: " + ex.getMessage())
-                ctx.response.status(HttpResponseStatus.UNAUTHORIZED.code())
-                ctx.response.send()
             }
+        } catch (Exception ex) {
+            log.warn("Login failed: " + ex.getMessage())
+            ctx.response.status(HttpResponseStatus.UNAUTHORIZED.code())
+            ctx.response.send()
         }
     }
 
