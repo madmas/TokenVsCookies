@@ -2,9 +2,8 @@
 
 This is the demo project used during the talk link:https://entwicklertag.de/karlsruhe/2016/token-statt-cookies[_Token statt Cookies dank JWT_ at Entwicklertag Karlsruhe 2016]
 
-Find the slides at link:http://de.slideshare.net/madmas/token-statt-cookies-danke-jwt-java-land-2016[slideshare] or link:Token_statt_Cookies-JavaLand2016_MarkusSchlichting.pdf[in this repository].
+Find the slides at link:http://de.slideshare.net/madmas/token-statt-cookies-dank-jwt-etka16[slideshare] or link:Token%20statt%20Cookies%20-%20Entwicklertag%20KA%202016%20-%20Markus%20Schlichting.pdf[in this repository].
 
-If you attended the talk and took pictures, please send them to link:mailto:markus.schlichting@canoo.com[me]
-Also, any feedback is very much appreciated. :-)
+Any feedback is very much appreciated, please send it to link:mailto:markus.schlichting@canoo.com[me] :-)
 
 Find some details how to run the server and the client app in the readme files in the respective folders.
