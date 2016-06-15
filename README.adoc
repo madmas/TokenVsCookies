@@ -1,6 +1,6 @@
 = Demo project _Tokens vs. Cookies_
 
-This is the demo project used during the talk link:https://dukecon.org/javaland/talk.html#talk?talkId=509841[_Token statt Cookies dank JWT_ at JavaLand Conference 2016]
+This is the demo project used during the talk link:https://entwicklertag.de/karlsruhe/2016/token-statt-cookies[_Token statt Cookies dank JWT_ at Entwicklertag Karlsruhe 2016]
 
 Find the slides at link:http://de.slideshare.net/madmas/token-statt-cookies-danke-jwt-java-land-2016[slideshare] or link:Token_statt_Cookies-JavaLand2016_MarkusSchlichting.pdf[in this repository].
 
