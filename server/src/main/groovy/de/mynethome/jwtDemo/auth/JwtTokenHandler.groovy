@@ -52,8 +52,9 @@ class JwtTokenHandler implements Handler {
                 }
             }
             ctx.next(Registry.single(User.class, userObj))
-        } catch (ExpiredJwtException | UnsupportedJwtException | MalformedJwtException | SignatureException |
-                    IllegalArgumentException e) {
+        } catch (ExpiredJwtException | UnsupportedJwtException
+                    | MalformedJwtException | SignatureException
+                    | IllegalArgumentException e) {
             log.warn "Exception on token verification: " + e.getMessage()
             ctx.response.status(HttpResponseStatus.UNAUTHORIZED.code())
             ctx.response.send()

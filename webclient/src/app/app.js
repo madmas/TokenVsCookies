@@ -22,7 +22,7 @@ angular.module('jwtSample', [
                     $scope.message = data;
                 })
                 .error(function(error) {
-                    $log.error(error)
+                    $log.error(error);
                 });
 
         $rootScope.$on('unauthenticated', function() {

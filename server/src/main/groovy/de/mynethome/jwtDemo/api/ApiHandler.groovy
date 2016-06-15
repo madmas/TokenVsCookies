@@ -6,6 +6,7 @@ import ratpack.groovy.handling.GroovyHandler
 class ApiHandler extends GroovyHandler{
     @Override
     protected void handle(GroovyContext context) {
-        context.render("Internal message for JavaLand 2016 :-)")
+        context.render("Freundliche gesicherte Grüße " +
+                       " an den Entwicklertag KA 2016 :-)")
     }
 }
