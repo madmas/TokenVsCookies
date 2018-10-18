@@ -71,7 +71,7 @@ module.exports = function (grunt) {
         'clean:dev',
         'copy:index',
         'copy:dev',
-        'compass:dev',
+        'sass:dev',
         'merge-json:translations',
         'html2js',
         'index:dev'
@@ -81,7 +81,7 @@ module.exports = function (grunt) {
         'clean:dist',
         'jshint',
         'html2js',
-        'compass:dist',
+        'sass:dist',
         'merge-json:translations',
         'copy:index',
         'copy:dist',
