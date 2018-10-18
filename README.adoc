@@ -1,9 +1,9 @@
 = Demo project _Tokens vs. Cookies_
 
-This is the demo project used during the talk link:https://entwicklertag.de/karlsruhe/2016/token-statt-cookies[_Token statt Cookies dank JWT_ at Entwicklertag Karlsruhe 2016]
+This is the demo project used during the talk link:https://baselone.ch/speech/C8552BD9-D2B4-4816-A8F3-78084CE582B6/The-secret-behind-JWT-[_The secret behind JWT_ at BaselOne 2018]
 
-Find the slides at link:http://de.slideshare.net/madmas/token-statt-cookies-dank-jwt-etka16[slideshare] or link:Token%20statt%20Cookies%20-%20Entwicklertag%20KA%202016%20-%20Markus%20Schlichting.pdf[in this repository].
+Find the slides link:Token%20statt%20Cookies%20-%20BaselOne%202018%20-%20Markus%20Schlichting.pdf[in this repository].
 
-Any feedback is very much appreciated, please send it to link:mailto:markus.schlichting@canoo.com[me] :-)
+Any feedback is very much appreciated, please send it to link:mailto:markus.schlichting@karakun.com[me] :-)
 
 Find some details how to run the server and the client app in the readme files in the respective folders.

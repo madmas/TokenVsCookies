@@ -8,7 +8,7 @@ import de.mynethome.jwtDemo.User
 class AuthenticationService {
 
     private final String VALID_USER = "markus"
-    private final String VALID_PASSWORD = "etka16"
+    private final String VALID_PASSWORD = "baselone2018"
 
     User authenticate(String userName, String password) {
 
@@ -27,7 +27,7 @@ class AuthenticationService {
 
                 @Override
                 String getEmail() {
-                    "markus.schlichting@canoo.com"
+                    "markus.schlichting@karakun.com"
                 }
             }
         } else {

@@ -27,7 +27,7 @@ ratpack {
             apiChain.get(ApiHandler)
         }
         get {
-            render groovyMarkupTemplate("index.gtpl", title: "My Ratpack App")
+            render groovyMarkupTemplate("index.gtpl", title: "JWT Demo App")
         }
 
         files { dir "public" }
